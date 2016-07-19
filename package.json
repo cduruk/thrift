@@ -1,0 +1,40 @@
+{
+	"name": "thrift",
+	"displayName": "Thrift",
+	"description": "Thrift language support.",
+	"version": "0.0.1",
+	"publisher": "cduruk",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "thrift",
+				"aliases": [
+					"Thrift",
+					"thrift"
+				],
+				"extensions": [
+					".thrift"
+				],
+				"configuration": "./thrift.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "thrift",
+				"scopeName": "source.thrift",
+				"path": "./syntaxes/thrift.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "287fb3dd-6588-4844-85c5-3572b92cbf4e",
+		"publisherId": "c87456b8-7116-47a6-89f3-06d2bdbad18b",
+		"publisherDisplayName": "cduruk"
+	}
+}
